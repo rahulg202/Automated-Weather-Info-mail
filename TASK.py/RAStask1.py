@@ -36,8 +36,8 @@ info+=('End of Message')
 smtp_server="smtp.gmail.com"
 port=587
 
-sender_email="rahulguptabruzo@gmail.com"
-receiver_email="gpoonam342@gmail.com"
+sender_email=""#enter the sender mail
+receiver_email=""#enter the receiver mail
 message=MIMEMultipart()
 message["Subject"]="Weather Report of"+city+"Dated: "+str(now.day)
 message["From"]=sender_email
